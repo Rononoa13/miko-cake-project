@@ -1,0 +1,48 @@
+.second-main-section {
+  /* display: flex; */
+  flex-direction: column;
+  flex-flow: column;
+}
+
+.header-wrapper {
+
+  top: 150px;
+  text-align: center;
+  position: absolute;
+
+  left: 10vw;
+
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 50px;
+  text-align: center;
+}
+
+.image-container {
+    position: absolute;
+    top: 160px;
+}
+
+.second-page-circle1{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: hsl(353, 85%, 54%, .2);
+    left: -13%;
+    top: 15rem;
+    opacity: 50%;
+}
+.second-page-circle2{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-color: hsl(353, 85%, 54%, .2);
+    right: -5%;
+    top: 10rem;
+    opacity: 60%;
+}
